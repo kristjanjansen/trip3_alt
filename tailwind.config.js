@@ -1,8 +1,24 @@
+// https://tailwind.simeongriggs.dev/
+
 module.exports = {
     purge: ["./resources/**/*.{vue,php}"],
     darkMode: false,
     theme: {
-        // https://tailwind.simeongriggs.dev/
+        fontFamily: {
+            // define your custom font
+            sans: ["Inter var", "sans-serif"],
+        },
+        capsize: {
+            fontMetrics: {
+                sans: {
+                    capHeight: 2048,
+                    ascent: 2728,
+                    descent: -680,
+                    lineGap: 0,
+                    unitsPerEm: 2816,
+                },
+            },
+        },
         colors: {
             green: {
                 100: "#f5fbf3",
@@ -84,5 +100,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [require("@themosaad/tailwindcss-capsize")],
 };

@@ -7,4 +7,5 @@
         </div>
         <slot />
     </main>
+    <basegrid />
 </template>

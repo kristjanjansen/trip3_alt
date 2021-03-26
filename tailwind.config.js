@@ -7,6 +7,7 @@ module.exports = {
         fontFamily: {
             // define your custom font
             sans: ["Sailec", "sans-serif"],
+            serif: ["'Cormorant Garamond'", "serif"],
         },
         capsize: {
             fontMetrics: {

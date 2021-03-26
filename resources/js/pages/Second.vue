@@ -22,7 +22,7 @@
                     <h1 class="font-bold text-6xl tracking-tighter">
                         Odavlennufirmad avavad suveks massiliselt uusi liine
                     </h1>
-                    <div class="text-2xl">
+                    <div class="text-3xl text-gray-800 font-serif">
                         Viimane aasta on lennufirmadele olnud üks suur
                         kannatuste rada. Väike lootus tekkis 2020. aasta suvel,
                         kuid pärast seda on tiksutud talveune režiimil. Kuid

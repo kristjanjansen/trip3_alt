@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-    <div class="grid grid-cols-7">
+    <div class="grid grid-cols-8">
         <div>
             <div class="p-4 bg-green-100" />
             <div class="p-4 bg-green-200" />
@@ -80,7 +80,7 @@
             <div class="p-4 bg-blue-900" />
         </div>
         <div>
-            <div class="p-4 bg-cyan-100" />
+            <div class="p-4 bg-gray-100" />
             <div class="p-4 bg-cyan-200" />
             <div class="p-4 bg-cyan-300" />
             <div class="p-4 bg-cyan-400" />
@@ -91,6 +91,19 @@
             <div class="p-4 bg-cyan-700" />
             <div class="p-4 bg-cyan-800" />
             <div class="p-4 bg-cyan-900" />
+        </div>
+        <div>
+            <div class="p-4 bg-gray-100" />
+            <div class="p-4 bg-gray-200" />
+            <div class="p-4 bg-gray-300" />
+            <div class="p-4 bg-gray-400" />
+            <hr />
+            <div class="p-4 bg-gray-500" />
+            <hr />
+            <div class="p-4 bg-gray-600" />
+            <div class="p-4 bg-gray-700" />
+            <div class="p-4 bg-gray-800" />
+            <div class="p-4 bg-gray-900" />
         </div>
     </div>
 </template>

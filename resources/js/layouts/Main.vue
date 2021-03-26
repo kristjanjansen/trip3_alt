@@ -1,11 +1,15 @@
 <template>
     <main>
         <div class="p-4">
-            <inertia-link href="/">First</inertia-link>
+            <inertia-link class="font-medium text-gray-800" href="/"
+                >First</inertia-link
+            >
             &nbsp;
-            <inertia-link href="/second">Second</inertia-link>
+            <inertia-link class="font-medium text-gray-800" href="/second"
+                >Second</inertia-link
+            >
         </div>
         <slot />
     </main>
-    <basegrid />
+    <!-- <basegrid /> -->
 </template>

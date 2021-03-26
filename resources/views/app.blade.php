@@ -18,7 +18,7 @@
     @endproduction
 </head>
 
-<body>
+<body class="antialiased font-sans text-gray-700 min-h-screen">
     @inertia
 </body>
 

@@ -1,7 +1,7 @@
 // https://tailwind.simeongriggs.dev/
 
 module.exports = {
-    purge: ["./resources/**/*.{vue,php}"],
+    purge: ["./resources/**/*.vue", "./resources/**/*.blade.php"],
     darkMode: false,
     theme: {
         fontFamily: {
@@ -100,14 +100,14 @@ module.exports = {
             },
             gray: {
                 100: "#f7f7f8",
-                200: "#d9dcdd",
-                300: "#bec3c6",
-                400: "#a0a7ab",
-                500: "#858e93",
-                600: "#697277",
-                700: "#4d5357",
-                800: "#323739",
-                900: "#181a1b",
+                200: "#d2d5da",
+                300: "#b1b5be",
+                400: "#8d93a0",
+                500: "#6a7180",
+                600: "#565b67",
+                700: "#41454e",
+                800: "#2c2f35",
+                900: "#17191c",
             },
             white: "white",
         },

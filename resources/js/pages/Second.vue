@@ -13,11 +13,24 @@
             </div>
             <div class="p-4 grid gap-4">
                 <button
-                    class="justify-self-start bg-green-500 hover:bg-green-600 text-white py-2 px-6 rounded font-medium"
+                    class="justify-self-start bg-green-500 hover:bg-green-400 active:bg-green-600 text-white py-2 px-6 rounded font-medium"
                 >
                     Liitu Trip.ee-ga
                 </button>
-
+                <br />
+                <div class="grid gap-6">
+                    <h1 class="font-bold text-6xl tracking-tighter">
+                        Odavlennufirmad avavad suveks massiliselt uusi liine
+                    </h1>
+                    <div class="text-2xl">
+                        Viimane aasta on lennufirmadele olnud üks suur
+                        kannatuste rada. Väike lootus tekkis 2020. aasta suvel,
+                        kuid pärast seda on tiksutud talveune režiimil. Kuid
+                        näiliselt vaikse pinna all pulbitsevad arengud, mis
+                        ootavad valla päästmist.
+                    </div>
+                </div>
+                <br />
                 <a href="" class="flex items-center gap-2">
                     <icon-rightarrow
                         class="text-gray-600 hover:text-gray-700 w-4"
@@ -72,14 +85,21 @@
                     täiendavaid piiranguid, mida ei osanud lennujaama lehelt
                     välja lugeda?
                 </div>
-                <div class="grid grid-cols-3">
-                    <a href="" class="relative overflow-hidden">
+                <div
+                    class="grid lg:grid-cols-6 xs:grid-cols-2 md:grid-cols-3 gap-3"
+                >
+                    <a
+                        v-for="i in 6"
+                        :key="i"
+                        href=""
+                        class="relative overflow-hidden h-56"
+                    >
                         <img
-                            class="w-full"
+                            class="w-full h-full object-cover object-center"
                             src="https://trip.ee/images/medium/bergamo-4440781_1920_1xzs.jpeg"
                         />
                         <div
-                            class="absolute inset-0 bg-gradient-to-b from-white via-[#777777] to-black opacity-50"
+                            class="absolute inset-0 bg-gradient-to-b from-white via-[#777777] to-black opacity-50 hover:opacity-0"
                         />
                         <div class="absolute inset-0 p-4 flex items-end">
                             <div class="grid gap-3">
@@ -88,7 +108,7 @@
                                     Milanosse
                                 </h3>
                                 <div
-                                    class="bg-orange-500 text-white font-medium text-base p-1 justify-self-start rounded"
+                                    class="bg-orange-500 hover:bg-orange-600 text-white font-medium text-base p-1 justify-self-start rounded"
                                 >
                                     al 15€
                                 </div>

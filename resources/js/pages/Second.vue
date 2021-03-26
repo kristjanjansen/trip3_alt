@@ -23,7 +23,7 @@
                         class="text-gray-600 hover:text-gray-700 w-4"
                     />
                     <h2
-                        class="tracking-wider text-sm font-medium uppercase text-green-500 hover:text-green-600"
+                        class="tracking-wider text-sm font-medium uppercase text-green-600 hover:text-green-600"
                     >
                         Soodsad lennupiletid
                     </h2>
@@ -43,7 +43,7 @@
                     <div class="grid gap-3">
                         <a
                             href=""
-                            class="font-medium text-xl text-gray-600 hover:text-gray-600"
+                            class="font-medium text-xl hover:text-gray-800"
                         >
                             <h3>Kas praegu saab Sardiiniasse reisida?</h3>
                         </a>
@@ -62,15 +62,39 @@
                     </div>
                 </div>
                 <br />
-                <h1 class="text-3xl font-medium">
+                <h1 class="text-4xl font-medium">
                     Kas praegu saab Sardiiniasse reisida?
                 </h1>
-                <div class="px-16">
+                <div class="text-lg">
                     Äkki mõni targem oskab nõu anda. Nimelt oleks plaanis minna
                     Gran Canariale ümberistumisega Bergamos. Saan hetkel aru, et
                     Bergamos peab olema test tehtud 48h enne. Kas on veel
                     täiendavaid piiranguid, mida ei osanud lennujaama lehelt
                     välja lugeda?
+                </div>
+                <div class="grid grid-cols-3">
+                    <a href="" class="relative overflow-hidden">
+                        <img
+                            class="w-full"
+                            src="https://trip.ee/images/medium/bergamo-4440781_1920_1xzs.jpeg"
+                        />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-white via-[#777777] to-black opacity-50"
+                        />
+                        <div class="absolute inset-0 p-4 flex items-end">
+                            <div class="grid gap-3">
+                                <h3 class="font-bold text-xl text-white">
+                                    Edasi-tagasi lennupiletid Tallinnast
+                                    Milanosse
+                                </h3>
+                                <div
+                                    class="bg-orange-500 text-white font-medium text-base p-1 justify-self-start rounded"
+                                >
+                                    al 15€
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

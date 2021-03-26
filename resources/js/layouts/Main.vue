@@ -13,5 +13,5 @@
         </div>
         <slot />
     </div>
-    <!-- <basegrid /> -->
+    <basegrid />
 </template>

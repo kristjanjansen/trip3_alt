@@ -45,3 +45,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    @variants hover, focus {
+        .lighter {
+            filter: brightness(105%);
+        }
+        .darker {
+            filter: brightness(95%);
+        }
+    }
+}

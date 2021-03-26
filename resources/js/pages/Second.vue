@@ -1,39 +1,87 @@
 <template>
     <div>
+        <img
+            class="w-full max-h-96 object-cover object-center transition-all hover:lighter active:darker"
+            src="https://trip.ee/photos/header3.jpg"
+        />
         <div class="grid">
             <a href="" class="p-4 bg-purple-500 hover:bg-purple-600 grid gap-3">
                 <div class="text-purple-300 text-base">Aafrika ›</div>
                 <div class="text-white text-xl">Reunion</div>
             </a>
-            <div class="grid grid-cols-3">
+            <div class="grid grid-cols-2">
                 <div class="p-8 bg-gray-100">
                     Trip.ee on reisihuviliste kogukond, keda ühendab reisipisik
                     ning huvi kaugete maade ja kultuuride vastu.
                 </div>
             </div>
-            <div class="p-4 grid gap-4">
+            <div class="p-8 grid gap-4">
                 <button
                     class="justify-self-start bg-green-500 hover:bg-green-400 active:bg-green-600 text-white py-2 px-6 rounded font-medium"
                 >
                     Liitu Trip.ee-ga
                 </button>
+
                 <br />
+
+                <a
+                    href=""
+                    class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6"
+                >
+                    <img
+                        class="w-full h-64 sm:h-full object-cover object-center transition-all hover:lighter active:darker"
+                        src="https://trip.ee/images/medium/bergamo-4440781_1920_1xzs.jpeg"
+                    />
+                    <div class="grid gap-8">
+                        <a href="" class="flex items-center gap-2">
+                            <icon-rightarrow
+                                class="text-green-500 hover:text-green-600 w-4"
+                            />
+                            <h2
+                                class="tracking-wider text-sm font-medium uppercase text-green-500 hover:text-green-600"
+                            >
+                                Uudised
+                            </h2>
+                        </a>
+                        <h1
+                            class="font-bold text-4xl sm:text-6xl tracking-tighter hover:text-gray-600 active:text-gray-800 transition"
+                        >
+                            Odavlennufirmad avavad suveks massiliselt uusi liine
+                        </h1>
+                        <div
+                            class="text-xl sm:text-2xl font-sans sm:font-serif hover:text-gray-600 active:text-gray-800 transition"
+                        >
+                            Viimane aasta on lennufirmadele olnud üks suur
+                            kannatuste rada. Väike lootus tekkis 2020. aasta
+                            suvel, kuid pärast seda on tiksutud talveune
+                            režiimil. Kuid näiliselt vaikse pinna all
+                            pulbitsevad arengud, mis ootavad valla päästmist.
+                        </div>
+                        <a href="" class="flex gap-2 items-center">
+                            <icon-user
+                                class="rounded-full ring-2 ring-cyan-500 text-cyan-500 hover:text-gray-300 w-5"
+                            />
+                            <div class="font-medium text-cyan-500">
+                                Veigo Kell
+                            </div>
+                            <div class="font-sans sm:font-serif text-gray-500">
+                                12. tundi tagasi
+                            </div>
+                        </a>
+                    </div>
+                </a>
+
+                <br />
+
                 <div class="grid gap-6">
-                    <h1 class="font-bold text-6xl tracking-tighter">
+                    <h1 class="font-bold text-4xl tracking-tight">
                         Odavlennufirmad avavad suveks massiliselt uusi liine
                     </h1>
-                    <div class="text-3xl text-gray-800 font-serif">
-                        Viimane aasta on lennufirmadele olnud üks suur
-                        kannatuste rada. Väike lootus tekkis 2020. aasta suvel,
-                        kuid pärast seda on tiksutud talveune režiimil. Kuid
-                        näiliselt vaikse pinna all pulbitsevad arengud, mis
-                        ootavad valla päästmist.
-                    </div>
                 </div>
                 <br />
                 <a href="" class="flex items-center gap-2">
                     <icon-rightarrow
-                        class="text-gray-600 hover:text-gray-700 w-4"
+                        class="text-gray-500 hover:text-gray-700 w-4"
                     />
                     <h2
                         class="tracking-wider text-sm font-medium uppercase text-green-600 hover:text-green-600"
@@ -50,9 +98,9 @@
                     </h2>
                 </a>
                 <div class="flex gap-3 items-center">
-                    <a href="" class="text-gray-200 hover:text-gray-300 w-14"
-                        ><icon-user
-                    /></a>
+                    <a href="" class="text-gray-200 hover:text-gray-300 w-14">
+                        <icon-user />
+                    </a>
                     <div class="grid gap-3">
                         <a
                             href=""

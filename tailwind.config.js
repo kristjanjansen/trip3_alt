@@ -7,7 +7,7 @@ module.exports = {
         fontFamily: {
             // define your custom font
             sans: ["Sailec", "sans-serif"],
-            serif: ["'Cormorant Garamond'", "serif"],
+            serif: ["'IBM Plex Serif'", "serif"],
         },
         capsize: {
             fontMetrics: {
@@ -16,6 +16,13 @@ module.exports = {
                     ascent: 1063,
                     descent: -306,
                     lineGap: 200,
+                    unitsPerEm: 1000,
+                },
+                serif: {
+                    capHeight: 698,
+                    ascent: 1025,
+                    descent: -275,
+                    lineGap: 0,
                     unitsPerEm: 1000,
                 },
             },

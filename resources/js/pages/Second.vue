@@ -133,14 +133,12 @@
                     täiendavaid piiranguid, mida ei osanud lennujaama lehelt
                     välja lugeda?
                 </div>
-                <div
-                    class="grid lg:grid-cols-6 xs:grid-cols-2 md:grid-cols-3 gap-3"
-                >
+                <div class="flex gap-4 overflow-x-auto w-auto">
                     <a
                         v-for="i in 6"
                         :key="i"
                         href=""
-                        class="relative overflow-hidden h-56"
+                        class="relative w-56 h-56 flex-shrink-0"
                     >
                         <img
                             class="w-full h-full object-cover object-center"

@@ -133,12 +133,14 @@
                     täiendavaid piiranguid, mida ei osanud lennujaama lehelt
                     välja lugeda?
                 </div>
-                <div class="flex gap-4 overflow-x-auto w-auto">
+                <div
+                    class="grid grid-cols-auto-6 md:grid-cols-3 gap-4 w-auto overflow-x-auto"
+                >
                     <a
                         v-for="i in 6"
                         :key="i"
                         href=""
-                        class="relative w-56 h-56 flex-shrink-0"
+                        class="relative w-56 h-56 md:w-auto"
                     >
                         <img
                             class="w-full h-full object-cover object-center"
@@ -151,7 +153,7 @@
                             <div class="grid gap-3">
                                 <h3 class="font-bold text-xl text-white">
                                     Edasi-tagasi lennupiletid Tallinnast
-                                    Milanosse
+                                    Réunioni saarele
                                 </h3>
                                 <div
                                     class="bg-orange-500 hover:bg-orange-600 text-white font-medium text-base p-1 justify-self-start rounded"

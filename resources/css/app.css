@@ -56,3 +56,44 @@
         }
     }
 }
+
+@layer utilities {
+    @variants responsive {
+        .grid-cols-auto-1 {
+            grid-template-columns: repeat(1, auto);
+        }
+        .grid-cols-auto-2 {
+            grid-template-columns: repeat(2, auto);
+        }
+        .grid-cols-auto-3 {
+            grid-template-columns: repeat(3, auto);
+        }
+        .grid-cols-auto-4 {
+            grid-template-columns: repeat(4, auto);
+        }
+        .grid-cols-auto-5 {
+            grid-template-columns: repeat(5, auto);
+        }
+        .grid-cols-auto-6 {
+            grid-template-columns: repeat(6, auto);
+        }
+        .grid-cols-auto-7 {
+            grid-template-columns: repeat(7, auto);
+        }
+        .grid-cols-auto-8 {
+            grid-template-columns: repeat(8, auto);
+        }
+        .grid-cols-auto-9 {
+            grid-template-columns: repeat(9, auto);
+        }
+        .grid-cols-auto-10 {
+            grid-template-columns: repeat(10, auto);
+        }
+        .grid-cols-auto-11 {
+            grid-template-columns: repeat(11, auto);
+        }
+        .grid-cols-auto-12 {
+            grid-template-columns: repeat(12, auto);
+        }
+    }
+}

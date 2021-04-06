@@ -1,6 +1,5 @@
-// https://tailwind.simeongriggs.dev/
-
 module.exports = {
+    mode: "jit",
     purge: ["./resources/**/*.vue", "./resources/**/*.blade.php"],
     darkMode: false,
     theme: {

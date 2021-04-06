@@ -1,13 +1,13 @@
 <template>
     <div>
         <img
-            class="w-full max-h-96 object-cover object-center transition-all hover:lighter active:darker"
+            class="hover:lighter active:darker w-full max-h-96 object-cover object-center transition-all"
             src="https://trip.ee/photos/header3.jpg"
         />
         <div class="grid">
-            <a href="" class="p-4 bg-purple-500 hover:bg-purple-600 grid gap-3">
-                <div class="text-purple-300 text-base">Aafrika ›</div>
-                <div class="text-white text-xl">Reunion</div>
+            <a href="" class="grid gap-3 p-4 bg-purple-500 hover:bg-purple-600">
+                <div class="text-base text-purple-300">Aafrika ›</div>
+                <div class="text-xl text-white">Reunion</div>
             </a>
             <div class="grid grid-cols-2">
                 <div class="p-8 bg-gray-100">
@@ -15,9 +15,9 @@
                     ning huvi kaugete maade ja kultuuride vastu.
                 </div>
             </div>
-            <div class="p-8 grid gap-4">
+            <div class="grid gap-4 p-8">
                 <button
-                    class="justify-self-start bg-green-500 hover:bg-green-400 active:bg-green-600 text-white py-2 px-6 rounded font-medium"
+                    class="justify-self-start px-6 py-2 text-white font-medium hover:bg-green-400 bg-green-500 active:bg-green-600 rounded"
                 >
                     Liitu Trip.ee-ga
                 </button>
@@ -26,30 +26,30 @@
 
                 <a
                     href=""
-                    class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6"
+                    class="group grid gap-x-10 gap-y-6 grid-cols-1 sm:grid-cols-2"
                 >
                     <img
-                        class="w-full h-64 sm:h-full object-cover object-center transition-all hover:lighter active:darker"
+                        class="group-hover:lighter active:darker w-full h-64 object-cover object-center transition-all sm:h-full"
                         src="https://trip.ee/images/medium/bergamo-4440781_1920_1xzs.jpeg"
                     />
                     <div class="grid gap-8">
-                        <a href="" class="flex items-center gap-2">
+                        <a href="" class="flex gap-2 items-center">
                             <icon-rightarrow
-                                class="text-green-500 hover:text-green-600 w-4"
+                                class="w-4 text-green-500 group-hover:text-green-600"
                             />
                             <h2
-                                class="tracking-wider text-sm font-medium uppercase text-green-500 hover:text-green-600"
+                                class="text-sm text-green-500 group-hover:text-green-600 font-medium tracking-wider uppercase"
                             >
                                 Uudised
                             </h2>
                         </a>
                         <h1
-                            class="font-bold text-4xl sm:text-6xl tracking-tighter hover:text-gray-600 active:text-gray-800 transition"
+                            class="text-4xl sm:text-6xl group-hover:text-gray-600 active:text-gray-800 font-bold tracking-tighter transition"
                         >
                             Odavlennufirmad avavad suveks massiliselt uusi liine
                         </h1>
                         <div
-                            class="text-xl sm:text-2xl font-sans sm:font-serif hover:text-gray-600 active:text-gray-800 transition"
+                            class="text-xl sm:text-2xl group-hover:text-gray-600 active:text-gray-800 transition"
                         >
                             Viimane aasta on lennufirmadele olnud üks suur
                             kannatuste rada. Väike lootus tekkis 2020. aasta
@@ -59,12 +59,12 @@
                         </div>
                         <a href="" class="flex gap-2 items-center">
                             <icon-user
-                                class="rounded-full ring-2 ring-cyan-500 text-cyan-500 hover:text-gray-300 w-5"
+                                class="w-5 text-cyan-500 hover:text-gray-300 rounded-full ring-cyan-500 ring-2"
                             />
-                            <div class="font-medium text-cyan-500">
+                            <div class="text-cyan-500 font-medium">
                                 Veigo Kell
                             </div>
-                            <div class="font-sans sm:font-serif text-gray-500">
+                            <div class="font-sans text-gray-300">
                                 12. tundi tagasi
                             </div>
                         </a>
@@ -74,49 +74,49 @@
                 <br />
 
                 <div class="grid gap-6">
-                    <h1 class="font-bold text-4xl tracking-tight">
+                    <h1 class="text-4xl font-bold tracking-tight">
                         Odavlennufirmad avavad suveks massiliselt uusi liine
                     </h1>
                 </div>
                 <br />
-                <a href="" class="flex items-center gap-2">
+                <a href="" class="flex gap-2 items-center">
                     <icon-rightarrow
-                        class="text-gray-500 hover:text-gray-700 w-4"
+                        class="w-4 text-gray-500 hover:text-gray-700"
                     />
                     <h2
-                        class="tracking-wider text-sm font-medium uppercase text-green-600 hover:text-green-600"
+                        class="text-sm text-green-600 hover:text-green-600 font-medium tracking-wider uppercase"
                     >
                         Soodsad lennupiletid
                     </h2>
                 </a>
                 <a href="">
                     <h2
-                        class="font-medium text-2xl text-blue-500 hover:text-blue-600"
+                        class="text-2xl text-blue-500 hover:text-blue-600 font-medium"
                     >
                         Edasi-tagasi lennupiletid Lufthansaga Tallinnast
                         Kreetale alates 160€
                     </h2>
                 </a>
                 <div class="flex gap-3 items-center">
-                    <a href="" class="text-gray-200 hover:text-gray-300 w-14">
+                    <a href="" class="w-14 text-gray-200 hover:text-gray-300">
                         <icon-user />
                     </a>
                     <div class="grid gap-3">
                         <a
                             href=""
-                            class="font-medium text-xl hover:text-gray-800"
+                            class="text-xl hover:text-gray-800 font-medium"
                         >
                             <h3>Kas praegu saab Sardiiniasse reisida?</h3>
                         </a>
                         <div class="flex gap-2">
                             <a
                                 href=""
-                                class="text-sm justify-self-start rounded-full px-2 py-1 border border-gray-400 text-gray-500 hover:bg-gray-100"
+                                class="text-sm justify-self-start px-2 py-1 text-gray-500 hover:bg-gray-100 border border-gray-400 rounded-full"
                                 >2 comments
                             </a>
                             <a
                                 href=""
-                                class="text-sm justify-self-start rounded-full px-2 py-1 border border-orange-300 text-orange-500 hover:bg-orange-100"
+                                class="text-sm justify-self-start px-2 py-1 text-orange-500 hover:bg-orange-100 border border-orange-300 rounded-full"
                                 >Itaalia ja Hispaania
                             </a>
                         </div>
@@ -134,7 +134,7 @@
                     välja lugeda?
                 </div>
                 <div
-                    class="grid grid-cols-auto-6 md:grid-cols-3 gap-4 w-auto overflow-x-auto"
+                    class="grid-cols-auto-6 grid gap-4 w-auto overflow-x-auto md:grid-cols-3"
                 >
                     <a
                         v-for="i in 6"
@@ -147,16 +147,16 @@
                             src="https://trip.ee/images/medium/bergamo-4440781_1920_1xzs.jpeg"
                         />
                         <div
-                            class="absolute inset-0 bg-gradient-to-b from-white via-[#777777] to-black opacity-50 hover:opacity-0"
+                            class="via-[#777777] absolute inset-0 bg-gradient-to-b from-white to-black hover:opacity-0 opacity-50"
                         />
-                        <div class="absolute inset-0 p-4 flex items-end">
+                        <div class="absolute inset-0 flex items-end p-4">
                             <div class="grid gap-3">
-                                <h3 class="font-bold text-xl text-white">
+                                <h3 class="text-xl text-white font-bold">
                                     Edasi-tagasi lennupiletid Tallinnast
                                     Réunioni saarele
                                 </h3>
                                 <div
-                                    class="bg-orange-500 hover:bg-orange-600 text-white font-medium text-base p-1 justify-self-start rounded"
+                                    class="text-base justify-self-start p-1 text-white font-medium bg-orange-500 hover:bg-orange-600 rounded"
                                 >
                                     al 15€
                                 </div>
@@ -169,34 +169,34 @@
         <br />
 
         <div class="p-4 bg-blue-100">
-            <div class="bg-blue-400 text-xs">XS 12px Täpselt | XS 13px</div>
+            <div class="text-xs bg-blue-400">XS 12px Täpselt | XS 13px</div>
         </div>
         <div class="p-4 bg-blue-200">
-            <div class="bg-blue-400 text-sm">SM 14px Täpselt | SM 14px</div>
+            <div class="text-sm bg-blue-400">SM 14px Täpselt | SM 14px</div>
         </div>
         <div class="p-4 bg-blue-100">
-            <div class="bg-blue-400 text-base">BASE 16px Täpselt | MD 16px</div>
+            <div class="text-base bg-blue-400">BASE 16px Täpselt | MD 16px</div>
         </div>
         <div class="p-4 bg-blue-200">
-            <div class="bg-blue-400 text-lg">MD 18px Täpselt | LG 19px</div>
+            <div class="text-lg bg-blue-400">MD 18px Täpselt | LG 19px</div>
         </div>
         <div class="p-4 bg-blue-100">
-            <div class="bg-blue-400 text-xl">XL 20px Täpselt | XL 21px</div>
+            <div class="text-xl bg-blue-400">XL 20px Täpselt | XL 21px</div>
         </div>
         <div class="p-4 bg-blue-200">
-            <div class="bg-blue-400 text-2xl">2XL | 24px Täpselt</div>
+            <div class="text-2xl bg-blue-400">2XL | 24px Täpselt</div>
         </div>
         <div class="p-4 bg-blue-100">
-            <div class="bg-blue-400 text-3xl">3XL 30px Täpselt | XXL 30px</div>
+            <div class="text-3xl bg-blue-400">3XL 30px Täpselt | XXL 30px</div>
         </div>
         <div class="p-4 bg-blue-200">
-            <div class="bg-blue-400 text-4xl">4XL 36px Täpselt</div>
+            <div class="text-4xl bg-blue-400">4XL 36px Täpselt</div>
         </div>
         <div class="p-4 bg-blue-100">
-            <div class="bg-blue-400 text-5xl">5XL 48px Täpselt | XXXL 48px</div>
+            <div class="text-5xl bg-blue-400">5XL 48px Täpselt | XXXL 48px</div>
         </div>
         <div class="p-4 bg-blue-200">
-            <div class="bg-blue-400 text-6xl">
+            <div class="text-6xl bg-blue-400">
                 6XL 60px Täpselt | XXXXL 64px
             </div>
         </div>
